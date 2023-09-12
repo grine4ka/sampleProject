@@ -10,7 +10,7 @@ let package = Package(
             targets: ["someProject"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kukushechkin/sampleMonorepo", .branch("master")),
+        .package(url: "https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/sampleMonorepo", .branch("main")),
     ],
     targets: [
         .target(
